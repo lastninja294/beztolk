@@ -1,4 +1,3 @@
-package first;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -28,7 +27,6 @@ public class first {
             solution();
             
         } catch (Exception e) {
-            // TODO: handle exception
             System.err.println(e);
         }
     }
