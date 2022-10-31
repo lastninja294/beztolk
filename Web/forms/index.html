@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <h3 class="form-header">O'quvchi anketasi</h3>
+
+      <div class="form-box">
+        <label><b>Registratsiya uchun ismni kiriting:</b></label>
+        <input type="text" maxlength="20" max="3" />
+      </div>
+
+      <div class="form-box">
+        <label><b>Parolingizni kiriting kiriting:</b> </label>
+        <input type="password" maxlength="20" max="3" />
+      </div>
+
+      <label class="form-box"><b>Sizning yoshingiz: </b></label>
+      <div class="radio-age">
+        <label><input name="age" type="radio" /> 20 yoshgacha</label>
+        <label><input name="age" type="radio" /> 20 dan 30 yoshgacha </label>
+        <label><input name="age" type="radio" /> 30 dan katta</label>
+      </div>
+      <div class="radio-age">
+        <label><input name="something" type="radio" /> 20 yoshgacha</label>
+        <label
+          ><input name="something" type="radio" /> 20 dan 30 yoshgacha
+        </label>
+      </div>
+      <label class="select-label"><b>Qanday janrdagi kitob o'qiysiz:</b></label>
+      <select class="select-option">
+        <option value="Detektiv" selected>Detektiv</option>
+        <option value="Fantastika">Fantastika</option>
+        <option value="Sheriyat">Sheriyat</option>
+      </select>
+
+      <label class="checkbox-label"
+        ><b>Yangi kitoblar haiqda qaeyrdan eshitasiz:</b></label
+      >
+
+      <div class="checkboxes">
+        <label><input type="checkbox" />Mualliflardan</label>
+        <label><input type="checkbox" />Do'stlarimdan</label>
+        <label><input type="checkbox" />Magazindan</label>
+        <label><input type="checkbox" />Internetdan</label>
+        <label><input type="checkbox" />Kitob do'kondan</label>
+      </div>
+
+      <label><input type="checkbox" />Mualliflardan</label>
+      <label><input type="checkbox" />Do'stlarimdan</label>
+      <button>Send</button>
+      <button>Clear</button>
+    </form>
+
+    <form class="form-student">
+      <h3 class="form-header">Talaba anketasi</h3>
+
+      <div class="form-box">
+        <label><b>Registratsiya uchun ismni kiriting:</b></label>
+        <input type="text" maxlength="20" max="3" />
+      </div>
+
+      <label><b> Jinsingiz:</b> </label>
+      <div>
+        <label><input type="radio" name="jins" />Erkak</label>
+        <label><input type="radio" name="jins" />Ayol</label>
+      </div>
+      <label
+        ><b>Lorem, ipsum dolor.</b
+        ><select class="select-option">
+          <option value="" selected>Bir</option>
+          <option value="">Ikki</option>
+          <option value="">Uch</option>
+        </select></label
+      >
+
+      <label class="checkbox-label"><b>Lorem ipsum dolor sit amet.</b></label>
+      <div class="checkboxes">
+        <label><input type="checkbox" />Paskal</label>
+        <label><input type="checkbox" />Si</label>
+        <label><input type="checkbox" />Prolog</label>
+      </div>
+      <label class="checkbox-label"><b>Lorem ipsum dolor sit amet.</b></label>
+      <textarea cols="50" rows="10"></textarea>
+      <div>
+        <button>Send</button>
+        <button>Clear</button>
+      </div>
+    </form>
+  </body>
+</html>
